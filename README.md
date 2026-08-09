@@ -22,8 +22,10 @@ This ensures you can still set up aggressive, lethal spawn traps without allowin
 
 ### Vanilla Behavior (Before)
 The game blocks you from finalizing a trap placement if its attack range touches the start zone.
+
 <img src="https://raw.githubusercontent.com/KRWCLASSIC/LetMeSpawnCamp/refs/heads/main/media/WithoutTheMod.png" width="400" alt="Vanilla Behavior">
 
 ### Modded Behavior (After)
 You can perfectly place traps so their range reaches directly into the spawn zone.
+
 <img src="https://raw.githubusercontent.com/KRWCLASSIC/LetMeSpawnCamp/refs/heads/main/media/WithTheMod.png" width="400" alt="Modded Behavior">

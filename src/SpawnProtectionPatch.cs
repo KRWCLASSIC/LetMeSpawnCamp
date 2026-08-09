@@ -10,6 +10,7 @@ namespace LetMeSpawnCamp
         [HarmonyPrefix]
         public static bool HandleCollisionPrefix(CheckColliding __instance, GameObject go)
         {
+            if (!Plugin.ModEnabled.Value) return true;
             if (go == null) return true;
 
             CollisionTag goTag = go.GetComponent<CollisionTag>();
@@ -57,6 +58,7 @@ namespace LetMeSpawnCamp
         [HarmonyPrefix]
         public static bool CheckCollidingObjectPrefix(CheckColliding __instance, GameObject go, ref bool __result)
         {
+            if (!Plugin.ModEnabled.Value) return true;
             if (go == null) return true;
 
             CollisionTag goTag = go.GetComponent<CollisionTag>();
