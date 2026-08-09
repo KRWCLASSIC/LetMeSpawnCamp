@@ -1,0 +1,9 @@
+{
+    "name": "LetMeSpawnCamp",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/your-username/LetMeSpawnCamp",
+    "description": "Allows you to place the range of hazards like Boxing Gloves and Wrecking Balls into the spawn zone, so you can spawn camp!",
+    "dependencies": [
+        "bepinex-BepInExPack-5.4.2100"
+    ]
+}

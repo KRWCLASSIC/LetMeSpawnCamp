@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>LetMeSpawnCamp</AssemblyName>
+    <Description>LetMeSpawnCamp mod for Ultimate Chicken Horse</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <!-- BepInEx & Utilities -->
+    <Reference Include="libs\BepInEx.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\0Harmony.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\Newtonsoft.Json.dll"><Private>False</Private></Reference>
+
+    <!-- Game DLLs -->
+    <Reference Include="libs\Assembly-CSharp.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.CoreModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.UI.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.Networking.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.IMGUIModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.TextRenderingModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.InputLegacyModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.ImageConversionModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\UnityEngine.AssetBundleModule.dll"><Private>False</Private></Reference>
+    <Reference Include="libs\com.unity.multiplayer-hlapi.Runtime.dll"><Private>False</Private></Reference>
+  </ItemGroup>
+
+</Project>
