@@ -2,3 +2,5 @@
 libs/
 bin/
 obj/
+
+*.zip
