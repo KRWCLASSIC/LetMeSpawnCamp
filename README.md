@@ -1,11 +1,15 @@
 # LetMeSpawnCamp
 
-A BepInEx mod for Ultimate Chicken Horse that allows you to "spawn camp" by letting the attack range of traps (like the Boxing Glove and Wrecking Ball) overlap with the spawn zone! 
+A BepInEx mod for Ultimate Chicken Horse that allows the attack range of traps (such as the Boxing Glove and Wrecking Ball) to overlap with the spawn zone.
 
-Normally, the game prevents you from placing any hazard whose use range hits the spawn protection. This mod precisely removes that restriction for non-solid traps while keeping the vanilla restriction that blocks you from dropping full solid blocks directly onto the spawn.
+In the vanilla game, players are prevented from placing any hazard whose use range intersects with the spawn protection area. This mod removes that restriction specifically for non-solid trap ranges, while preserving the original restriction that prevents placing full solid blocks directly onto the spawn point.
 
-## Installation
-1. Install BepInEx for Ultimate Chicken Horse.
-2. Download the latest release of `LetMeSpawnCamp`.
-3. Extract `LetMeSpawnCamp.dll` into your `BepInEx\plugins` folder.
-4. Enjoy spawn camping your friends!
+## Features
+
+### Vanilla Behavior (Before)
+The game blocks you from placing hazards if their range touches the spawn zone.
+![Vanilla Behavior](media/WithoutTheMod.png)
+
+### Modded Behavior (After)
+You can place traps so their range reaches directly into the spawn zone.
+![Modded Behavior](media/WithTheMod.png)

@@ -9,5 +9,5 @@ if %errorlevel% neq 0 (
 )
 
 echo Starting Ultimate Chicken Horse via Steam...
-del "D:\SteamLibrary\steamapps\common\Ultimate Chicken Horse\BepInEx\plugins\LetMeSpawnCamp.dll"
+
 start "" "steam://rungameid/386940"
